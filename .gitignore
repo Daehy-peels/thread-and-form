@@ -33,6 +33,10 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# editor local-history (VS Code "Local History" extension) — can contain
+# snapshots of .env.local with live secrets, so never commit it
+.history/
+
 # vercel
 .vercel
 
